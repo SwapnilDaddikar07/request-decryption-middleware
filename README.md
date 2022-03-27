@@ -11,5 +11,7 @@ to the endpoint
 http://localhost:8080/api/change-password
 
 will print
-Decrypted credentials are  {decrypted_123 decrypted_Username 2022-03-28 01:22:02.605495 +0530 IST}
-it shows the values from the request are replaced by "decrypted_" before reaching the controll.er
+
+**Decrypted credentials are  {decrypted_123 decrypted_Username 2022-03-28 01:22:02.605495 +0530 IST}**
+
+it shows the values from the request are replaced by "decrypted_" before reaching the controller. It would simulate an actual decryption call.
